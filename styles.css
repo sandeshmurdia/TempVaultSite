@@ -490,7 +490,6 @@ a {
 @media (max-width: 500px) {
   .logo {
     font-size: 30px;
-  margin-left: -30px;
   }
 
   .main-tempvault {
@@ -518,7 +517,7 @@ a {
   .getstarted-text {
     margin: 0 !important;
     font-size: 12px;
-    line-height: 40px;
+    line-height: 30px;
   }
 
   #scroll-div {
@@ -544,7 +543,7 @@ a {
   .about-heading {
     font-size: 30px;
     max-width: 500px;
-    line-height: 40px;
+    line-height: 30px;
     align-items: center;
     letter-spacing: 1px;
     color: #ffffff;
@@ -563,30 +562,30 @@ a {
 
   .about-tempvault {
     font-size: 30px;
-    line-height: 40px;
+    line-height: 30px;
     letter-spacing: 1px;
   }
 
   .usecase-1 {
     font-size: 30px;
-    line-height: 40px;
+    line-height: 30px;
   }
   .usecase-2 {
     font-size: 30px;
-    line-height: 40px;
+    line-height: 30px;
   }
   .usecase-3 {
     font-size: 30px;
-    line-height: 40px;
+    line-height: 30px;
   }
   .usecase-4 {
     font-size: 30px;
-    line-height: 40px;
+    line-height: 30px;
   }
 
   .usecase-5 {
     font-size: 30px;
-    line-height: 40px;
+    line-height: 30px;
   }
 
   .points-container {
