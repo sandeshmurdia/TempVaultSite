@@ -551,9 +551,9 @@ a {
 
   .about-sub {
     font-size: 12px;
-    line-height: 25px;
+    line-height: 18px;
     /* or 150% */
-    margin-top: -20px;
+    margin-top: -5px;
     display: flex;
     align-items: center;
     letter-spacing: 1px;
@@ -562,42 +562,40 @@ a {
 
   .about-tempvault {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 35px;
     letter-spacing: 1px;
   }
 
   .usecase-1 {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 35px;
   }
   .usecase-2 {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 35px;
   }
   .usecase-3 {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 35px;
   }
   .usecase-4 {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 35px;
   }
 
   .usecase-5 {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 35px;
   }
 
   .points-container {
     display: flex;
-
     position: relative;
   }
 
   .point {
-    font-size: 10px;
-    line-height: 25px;
-    /* or 150% */
+    font-size: 12px;
+    line-height: 18px;
     margin-top: -15px;
     margin-right: 50px;
   }
