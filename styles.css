@@ -20,13 +20,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 #home{
-  margin-top: 0vh;
+scroll-margin-top: 100px;
 }
 #about{
 margin-top: 80vh;
 }
 #features{
-  margin-top: 150vh;
+  margin-top: 160vh;
 }
 /* Handle on hover */
 body::-webkit-scrollbar-thumb:hover {
@@ -324,12 +324,10 @@ a {
 }
 
 .nav_link:hover {
-  color: #6fb1ee;
-}
-nav a.active {
   text-decoration: underline;
-  font-weight: bold;
+  color: #CCCCCC;
 }
+
 
 .nav_list {
   display: flex;
