@@ -96,13 +96,12 @@ body::-webkit-scrollbar-thumb:hover {
 
 #scroll-div {
   margin-top: 100vh;
-  height: 100vh;
   position: absolute;
   display: flex;
 }
 #scroll-div-1 {
   margin-top: 200vh;
-  height: 100vh;
+  height: 70vh;
   position: absolute;
   display: flex;
 }
@@ -111,7 +110,12 @@ body::-webkit-scrollbar-thumb:hover {
   max-width: 645px;
   max-height: 400px;
   margin-left: 50px;
-  margin-top: 25%;
+}
+.about-div-1 {
+  max-width: 645px;
+  max-height: 400px;
+  margin-left: 50px;
+  margin-top: -20%;
 }
 .about-heading {
   font-family: "Inter";
@@ -132,7 +136,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  /* or 150% */
+  /* or 100% */
   margin-top: -25px;
   display: flex;
   align-items: center;
@@ -236,7 +240,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  /* or 150% */
+  /* or 100% */
   margin-top: -25px;
   display: flex;
   align-items: center;
@@ -323,6 +327,7 @@ a {
 .hamburger {
   display: none;
   cursor: pointer;
+  margin-right: 20px;
 }
 
 .bar {
@@ -411,7 +416,7 @@ a {
   }
   #scroll-div-1 {
     margin-top: 200vh;
-    height: 100vh;
+    height: 40vh;
     position: absolute;
     display: flex;
   }
@@ -421,7 +426,12 @@ a {
     max-height: 300px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 25%;
+  }
+  .about-div-1 {
+    max-width: 645px;
+    max-height: 400px;
+    margin-left: 50px;
+    margin-top: -50%;
   }
   .about-heading {
     font-size: 36px;
@@ -435,7 +445,7 @@ a {
   .about-sub {
     font-size: 15px;
     line-height: 25px;
-    /* or 150% */
+    /* or 100% */
     margin-top: -15px;
     display: flex;
     align-items: center;
@@ -480,7 +490,7 @@ a {
   .point {
     font-size: 12px;
     line-height: 25px;
-    /* or 150% */
+    /* or 100% */
     margin-top: -15px;
     margin-right: 50px;
   }
@@ -490,6 +500,7 @@ a {
 @media (max-width: 500px) {
   .logo {
     font-size: 30px;
+    letter-spacing: -2px;
   }
 
   .main-tempvault {
@@ -505,6 +516,9 @@ a {
     margin-bottom: 35px;
   }
 
+  .hamburger{
+    margin-right: 20px;
+  }
   .getstarted-button {
     font-size: 12px;
     border: 1px solid #cccccc;
@@ -531,7 +545,6 @@ a {
   }
   #scroll-div-1 {
     margin-top: 200vh;
-    height: 100vh;
     position: absolute;
     display: flex;
   }
@@ -541,8 +554,15 @@ a {
     max-height: 300px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 25%;
   }
+  .about-div-1 {
+    max-width: 500px;
+    max-height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -80%;
+  }
+  
   .about-heading {
     font-size: 30px;
     max-width: 500px;
@@ -555,7 +575,7 @@ a {
   .about-sub {
     font-size: 12px;
     line-height: 18px;
-    /* or 150% */
+    /* or 100% */
     margin-top: -15px;
     display: flex;
     align-items: center;
