@@ -497,6 +497,9 @@ a {
     margin-bottom: -20px;
   }
 
+  .nav_link{
+    font-size: 12px;
+  }
   .sub-tempvault {
     font-size: 20px;
     margin-bottom: 35px;
@@ -596,7 +599,7 @@ a {
   .point {
     font-size: 12px;
     line-height: 18px;
-    margin-top: -5px;
+    margin-top: -2px;
     margin-right: 50px;
   }
 }
