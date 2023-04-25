@@ -126,6 +126,10 @@ body::-webkit-scrollbar-thumb:hover {
   margin-left: 50px;
   margin-top: -20%;
 }
+hr.solid {
+  border-top: 3px solid #cccccc;
+  width: 1100px;
+}
 .about-heading {
   font-family: "Inter";
   font-style: normal;
@@ -138,7 +142,18 @@ body::-webkit-scrollbar-thumb:hover {
 
   color: #ffffff;
 }
+.about-heading-1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  /* or 125% */
+  max-width: 650px;
+  align-items: center;
+  letter-spacing: 1px;
 
+  color: #ffffff;
+}
 .about-sub {
   font-family: "Inter";
   font-style: normal;
@@ -561,14 +576,14 @@ a {
   .about-div {
     max-width: 500px;
     max-height: 300px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
   .about-div-1 {
     max-width: 500px;
     max-height: 300px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-top: -80%;
   }
 
@@ -632,3 +647,4 @@ a {
     margin-right: 50px;
   }
 }
+
